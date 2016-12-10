@@ -1,4 +1,4 @@
-# This project is no longer under active development. I am taking a break from Hearthstone and subsequently will not be working on the project for some time. Thanks for your understanding.
+# This project is no longer maintained by the original owner. It is now maintained by the HDT community.
 
 ## What is HDT-Voice?
 HDT-Voice is a plugin for Hearthstone Deck Tracker that allows you to play the game and navigate the menus using simple voice commands.
