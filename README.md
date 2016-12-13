@@ -16,6 +16,4 @@ Please see the [HDT-Voice Wiki](https://github.com/topher-au/HDT-Voice/wiki) for
 
 ## Bugs and feedback
 
-All users are welcome to contact me with any feedback at topher@xobanimot.com
-
-If you find a bug, please enter it into the bugtracker with as much detail as possible, or email me as above. Don't forget to include your HDT crash log and (if applicable) your HDT-Voice debug log!
+Sugget improvements and report bugs in the issues section at the top.
