@@ -229,7 +229,7 @@ Public Class HDTGrammarEngine
         sayChoices.Add(New SemanticResultValue(ResChoice("EMOTETHANKS"), "thanks"))
         sayChoices.Add(New SemanticResultValue(ResChoice("EMOTEWELLPLAYED"), "well played"))
         sayChoices.Add(New SemanticResultValue(ResChoice("EMOTEGREETINGS"), "greetings"))
-        sayChoices.Add(New SemanticResultValue(ResChoice("EMOTESORRY"), "sorry"))
+        sayChoices.Add(New SemanticResultValue(ResChoice("EMOTEWOW"), "wow"))
         sayChoices.Add(New SemanticResultValue(ResChoice("EMOTEOOPS"), "oops"))
         sayChoices.Add(New SemanticResultValue(ResChoice("EMOTETHREATEN"), "threaten"))
         sayBuilder.Append(New SemanticResultKey("emote", sayChoices))

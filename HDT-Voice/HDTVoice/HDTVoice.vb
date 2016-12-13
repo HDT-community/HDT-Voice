@@ -517,7 +517,7 @@ Public Class HDTVoice
                 Sleep(200)
                 Mouse.MoveTo(40, 80)
                 Mouse.SendClick(Mouse.Buttons.Left)
-            Case "sorry"
+            Case "wow"
                 Mouse.MoveTo(50, 75)
                 Mouse.SendClick(Mouse.Buttons.Right)
                 Sleep(200)

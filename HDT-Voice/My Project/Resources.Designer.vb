@@ -169,15 +169,6 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to sorry.
-        '''</summary>
-        Friend ReadOnly Property EMOTESORRY() As String
-            Get
-                Return ResourceManager.GetString("EMOTESORRY", resourceCulture)
-            End Get
-        End Property
-        
-        '''<summary>
         '''  Looks up a localized string similar to thanks,thank you.
         '''</summary>
         Friend ReadOnly Property EMOTETHANKS() As String
@@ -201,6 +192,15 @@ Namespace My.Resources
         Friend ReadOnly Property EMOTEWELLPLAYED() As String
             Get
                 Return ResourceManager.GetString("EMOTEWELLPLAYED", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to wow.
+        '''</summary>
+        Friend ReadOnly Property EMOTEWOW() As String
+            Get
+                Return ResourceManager.GetString("EMOTEWOW", resourceCulture)
             End Get
         End Property
         

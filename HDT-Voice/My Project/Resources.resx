@@ -153,8 +153,8 @@
   <data name="EMOTEOOPS" xml:space="preserve">
     <value>oops</value>
   </data>
-  <data name="EMOTESORRY" xml:space="preserve">
-    <value>sorry</value>
+  <data name="EMOTEWOW" xml:space="preserve">
+    <value>wow</value>
   </data>
   <data name="EMOTETHANKS" xml:space="preserve">
     <value>thanks,thank you</value>
