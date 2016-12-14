@@ -1,12 +1,14 @@
-# This project is no longer maintained by the original owner. It is now maintained by the HDT community.
+[![Build status](https://ci.appveyor.com/api/projects/status/4m9674j9bn0bkws4?svg=true)](https://ci.appveyor.com/project/judge2020/hdt-voice)
 
-## What is HDT-Voice?
+
+# HDT-voice
+
 HDT-Voice is a plugin for Hearthstone Deck Tracker that allows you to play the game and navigate the menus using simple voice commands.
 
 ## Requirements and Download
 
 The requirements for HDT-Voice are as follows:
-- [HDT-Voice plugin (download here)](https://github.com/topher-au/HDT-Voice/releases/latest)
+- [HDT-Voice plugin (download here)](https://github.com/HearthSim/HDT-Voice/releases/latest)
 - [Hearthstone Deck Tracker](https://github.com/Epix37/Hearthstone-Deck-Tracker)
 - [Microsoft Speech Recognition engine](https://www.google.com/?q=install+microsoft+speech+recognition)
 
