@@ -44,12 +44,14 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="HearthDb">
-      <HintPath>..\..\..\..\AppData\Local\HearthstoneDeckTracker\app-1.1.4\HearthDb.dll</HintPath>
+    <Reference Include="HearthDb, Version=7.0.0.15590, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Packages\HearthDb.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="HearthstoneDeckTracker">
-      <HintPath>..\..\..\..\AppData\Local\HearthstoneDeckTracker\app-1.1.4\HearthstoneDeckTracker.exe</HintPath>
+    <Reference Include="HearthstoneDeckTracker, Version=1.1.4.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Packages\HearthstoneDeckTracker.exe</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="MahApps.Metro, Version=1.1.2.0, Culture=neutral, PublicKeyToken=f4fb5a3c4d1e5b4f, processorArchitecture=MSIL">
@@ -162,6 +164,10 @@
   <ItemGroup>
     <None Include="Resources\packages.config" />
     <None Include="Resources\recognizedsound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Packages\HearthDb.dll" />
+    <Content Include="Packages\HearthstoneDeckTracker.exe" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <PropertyGroup>
