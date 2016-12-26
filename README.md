@@ -3,6 +3,8 @@
 
 # HDT-voice
 
+###This plugin is now maintained by the community.
+
 HDT-Voice is a plugin for Hearthstone Deck Tracker that allows you to play the game and navigate the menus using simple voice commands.
 
 ## Requirements and Download
