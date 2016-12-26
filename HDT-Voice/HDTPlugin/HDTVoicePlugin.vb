@@ -102,10 +102,6 @@ Public Class HDTVoicePlugin
         If Not createdSettings Then
             CreateSettings()
         End If
-        If Not createdUpdateNews Then
-            CreateUpdateNews()
-
-        End If
     End Sub
     Public Sub ClickMenuItem()
         Dim optionsFlyout As Flyout
@@ -158,7 +154,7 @@ Public Class HDTVoicePlugin
     Public Sub CreateUpdateNews()
         ' Checks for an update and adds a news item if there wasn't one
         Dim gh As New Github
-        Dim newVer = gh.CheckForUpdate("topher-au", "HDT-Voice", HDTVoicePlugin.PluginVersion)
+        Dim newVer = gh.CheckForUpdate("HearthSim", "HDT-Voice", new Version(0, 8, 3))
         If Not IsNothing(newVer) Then
             Dim newsBar As StatusBar = Nothing
 
