@@ -1,5 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/4m9674j9bn0bkws4?svg=true)](https://ci.appveyor.com/project/judge2020/hdt-voice)
-
+This plugin is now archived. If you would like to support and continue work for this plugin, I recommend either forking or re-writing it from scratch. 
 
 # HDT-voice
 
